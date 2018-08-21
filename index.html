@@ -9,23 +9,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Index | jekyll-webpack</title>
+<title>jekyll-webpack | A simple opinionated boilerplate for Jekyll.</title>
 <meta name="generator" content="Jekyll v3.6.2" />
-<meta property="og:title" content="Index" />
+<meta property="og:title" content="jekyll-webpack" />
 <meta name="author" content="Clement Moron" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A simple opinionated boilerplate for Jekyll." />
 <meta property="og:description" content="A simple opinionated boilerplate for Jekyll." />
-<link rel="canonical" href="/index" />
-<meta property="og:url" content="/index" />
+<link rel="canonical" href="/" />
+<meta property="og:url" content="/" />
 <meta property="og:site_name" content="jekyll-webpack" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-08-20T21:16:07+03:00" />
+<meta property="og:image" content="/assets/default-social-image.png" />
 <script type="application/ld+json">
-{"description":"A simple opinionated boilerplate for Jekyll.","author":{"@type":"Person","name":"Clement Moron"},"@type":"BlogPosting","url":"/index","headline":"Index","dateModified":"2018-08-20T21:16:07+03:00","datePublished":"2018-08-20T21:16:07+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"/index"},"@context":"http://schema.org"}</script>
+{"name":"jekyll-webpack","description":"A simple opinionated boilerplate for Jekyll.","author":{"@type":"Person","name":"Clement Moron"},"@type":"WebSite","url":"/","image":"/assets/default-social-image.png","headline":"jekyll-webpack","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-
+  <base href="/">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
 
@@ -33,7 +32,7 @@
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" | absolute_url }}">
   <link rel="shortcut icon" href="assets/favicon.ico" | absolute_url }}">
 
-  <link rel="stylesheet" href="assets/main.css" />
+  <link rel="stylesheet" href="assets/main.css" | absolute_url }}" />
 
   <!-- <link rel="stylesheet" href="/assets/main.css"> -->
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -63,17 +62,18 @@
     <div class="header__inner">
       <nav class="nav">
         <ul>
-          <li class="current">
-            <a class="nav__item" href="#">Home</a>
+          <li>
+            <a class="nav__item" href="/">Home</a>
           </li>
 
           <li>
-            <a class="nav__item" href="#">About</a>
+            <a class="nav__item" href="#about">About</a>
           </li>
 
           <li>
             <a class="nav__item" href="#contact">Contact</a>
           </li>
+
         </ul>
       </nav>
 
@@ -98,343 +98,337 @@
 
 
     <main class="site__content" aria-label="Content">
-        <div class="slider">
-    <div class="container">
-      <div class="slider__clip">
-        <div class="slider__slides">
-          <div class="intro">
-            <div class="intro__image">
-        		<img src="assets/intro.png" alt="" width="1400" height="673">
-            </div><!-- /.intro__image -->
+      <div class="slider">
+  <div class="container">
+    <div class="slider__clip">
+      <div class="slider__slides">
+        <div class="intro">
+          <div class="intro__image">
+      		<img src="assets/intro.png" alt="" width="1400" height="673">
+          </div><!-- /.intro__image -->
 
-            <div class="intro__content" style="background-image: url(assets/mask.png)">
-              <div class="intro__body">
-                <h1 class="intro__title">
-                  The Cannabis Report
-                </h1><!-- /.intro__title -->
+          <div class="intro__content" style="background-image: url(assets/mask.png)">
+            <div class="intro__body">
+              <h1 class="intro__title">
+                The Cannabis Report
+              </h1><!-- /.intro__title -->
 
-                <p class="intro__entry">
-                  A scientific, medical, and sociopolitical look into the world of Medical Cannabis.
-                </p><!-- /.intro__entry -->
+              <p class="intro__entry">
+                A scientific, medical, and sociopolitical look into the world of Medical Cannabis.
+              </p><!-- /.intro__entry -->
 
-                <div class="intro__actions">
-                  <a href="#" class="btn">
-                    <i>
-                      <img src="assets/arrow.png" alt="" width="16" height="10">
-                    </i>
+              <div class="intro__actions">
+                <a href="#" class="btn">
+                  <i>
+                    <img src="assets/arrow.png" alt="" width="16" height="10">
+                  </i>
 
-                    Listen Now
-                  </a>
-                </div><!-- /.intro__actions -->
-              </div><!-- /.intro__body -->
-            </div><!-- /.intro__content -->
-          </div><!-- /.intro -->
+                  Listen Now
+                </a>
+              </div><!-- /.intro__actions -->
+            </div><!-- /.intro__body -->
+          </div><!-- /.intro__content -->
+        </div><!-- /.intro -->
 
-          <div class="intro">
-            <div class="intro__image">
-        		<img src="assets/intro.png" alt="" width="1400" height="673">
-            </div><!-- /.intro__image -->
+        <div class="intro">
+          <div class="intro__image">
+      		<img src="assets/intro.png" alt="" width="1400" height="673">
+          </div><!-- /.intro__image -->
 
-            <div class="intro__content" style="background-image: url(assets/mask.png)">
-              <div class="intro__body">
-                <h1 class="intro__title">
-                  The Cannabis Report
-                </h1><!-- /.intro__title -->
+          <div class="intro__content" style="background-image: url(assets/mask.png)">
+            <div class="intro__body">
+              <h1 class="intro__title">
+                The Cannabis Report
+              </h1><!-- /.intro__title -->
 
-                <p class="intro__entry">
-                  A scientific, medical, and sociopolitical look into the world of Medical Cannabis.
-                </p><!-- /.intro__entry -->
+              <p class="intro__entry">
+                A scientific, medical, and sociopolitical look into the world of Medical Cannabis.
+              </p><!-- /.intro__entry -->
 
-                <div class="intro__actions">
-                  <a href="#" class="btn">
-                    <i>
-                      <img src="assets/arrow.png" alt="" width="16" height="10">
-                    </i>
+              <div class="intro__actions">
+                <a href="#" class="btn">
+                  <i>
+                    <img src="assets/arrow.png" alt="" width="16" height="10">
+                  </i>
 
-                    Listen Now
-                  </a>
-                </div><!-- /.intro__actions -->
-              </div><!-- /.intro__body -->
-            </div><!-- /.intro__content -->
-          </div><!-- /.intro -->
-        </div><!-- /.slider__slides -->
-      </div><!-- /.slider__clip -->
-    </div><!-- /.container -->
-  </div><!-- /.slider -->
+                  Listen Now
+                </a>
+              </div><!-- /.intro__actions -->
+            </div><!-- /.intro__body -->
+          </div><!-- /.intro__content -->
+        </div><!-- /.intro -->
+      </div><!-- /.slider__slides -->
+    </div><!-- /.slider__clip -->
+  </div><!-- /.container -->
 </div><!-- /.slider -->
 
 <div class="main">
   <div class="articles">
-    <article class="article">
-      <div class="container">
-        <div class="article__head">
-          <h5 class="article__title">
-            We Are Cannabinerds
-          </h5><!-- /.article__title -->
-        </div><!-- /.article__head -->
-
-        <div class="article__body">
-          <h2 class="article__subtitle">
-            Bringing you the latest look into the scientific, medical, and sociopolitical world of Medical Cannabis.
-          </h2><!-- /.article__subtitle -->
-        </div><!-- /.article__body -->
-
-        <div class="article__actions">
-          <a href="#" class="btn-link">
-            read More
-
-            <i>
-              <img src="assets/arrow-grey.png" alt="" width="16" height="10">
-            </i>
-          </a>
-        </div><!-- /.article__actions -->
-      </div><!-- /.container -->
-    </article><!-- /.article -->
-    <div class="articles__body">
-
-      
-      <article class="article-large">
-        <div class="container">
-          <div class="article__image">
-            <img src="assets/hex.png" class="img-responsive" alt="LIFTED Why Drug Addiction &amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban" width="571" height="645">
-          </div><!-- /.article__image -->
-
-          <div class="article__content">
-            <div class="article__shell">
-              <p class="article__date">
-                9.20.17 Podcast
-              </p><!-- /.article__date -->
-            </div><!-- /.article__shell -->
-
-            <h3 class="article__title">
-              LIFTED Why Drug Addiction &amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban
-            </h3><!-- /.article__title -->
-
-            <div class="article__shell">
-              <p class="article__entry">
-                Interview with former Ravens tackle Eugene Monroe.
-              </p><!-- /.article__entry -->
-
-              <div class="article__actions">
-                <a href="#" class="btn btn--dark">
-                  <i>
-                    <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
-                  </i>
-
-                  Listen Now
-                </a>
-              </div><!-- /.article__actions -->
-            </div><!-- /.article__shell -->
-          </div><!-- /.article__content -->
-        </div><!-- /.container -->
-      </article><!-- /.article-large -->
-        
-      <article class="article-large">
-        <div class="container">
-          <div class="article__image">
-            <img src="assets/hex2.png" class="img-responsive" alt="BIOLITICS Studio ft. Dispensary33 &amp; NAC" width="568" height="645">
-          </div><!-- /.article__image -->
-
-          <div class="article__content">
-            <div class="article__shell">
-              <p class="article__date">
-                9.9.17 Podcast
-              </p><!-- /.article__date -->
-            </div><!-- /.article__shell -->
-
-            <h3 class="article__title">
-              BIOLITICS Studio ft. Dispensary33 &amp; NAC
-            </h3><!-- /.article__title -->
-
-            <div class="article__shell">
-              <p class="article__entry">
-                Our first sit down with Biolitics podcast; Cannabinerds from Dispensary33 and New Age Care.
-              </p><!-- /.article__entry -->
-
-              <div class="article__actions">
-                <a href="#" class="btn btn--dark">
-                  <i>
-                    <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
-                  </i>
-
-                  Listen Now
-                </a>
-              </div><!-- /.article__actions -->
-            </div><!-- /.article__shell -->
-          </div><!-- /.article__content -->
-        </div><!-- /.container -->
-      </article><!-- /.article-large -->
-        
-      <article class="article-large">
-        <div class="container">
-          <div class="article__image">
-            <img src="assets/hex3.png" class="img-responsive" alt="HTFSE &amp; HCFSE Explained" width="568" height="645">
-          </div><!-- /.article__image -->
-
-          <div class="article__content">
-            <div class="article__shell">
-              <p class="article__date">
-                9.5.17 Podcast
-              </p><!-- /.article__date -->
-            </div><!-- /.article__shell -->
-
-            <h3 class="article__title">
-              HTFSE &amp; HCFSE Explained
-            </h3><!-- /.article__title -->
-
-            <div class="article__shell">
-              <p class="article__entry">
-                Learn the painstaking process of creating diamonds & terp sauce.
-              </p><!-- /.article__entry -->
-
-              <div class="article__actions">
-                <a href="#" class="btn btn--dark">
-                  <i>
-                    <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
-                  </i>
-
-                  Listen Now
-                </a>
-              </div><!-- /.article__actions -->
-            </div><!-- /.article__shell -->
-          </div><!-- /.article__content -->
-        </div><!-- /.container -->
-      </article><!-- /.article-large -->
-        
-    </div><!-- /.articles__body -->
-
-    <div class="articles__actions">
-      <div class="container">
-        <a href="#" class="btn-link">
-          Load More Projects
-        </a>
-      </div><!-- /.container -->
-    </div><!-- /.articles__actions -->
-  </div><!-- /.articles -->
-
-  <section class="section-contacts" id="contact">
-    <div class="section__head" style="background-image: url(assets/contact-placehodler.png"})">
-        <h1 class="section__title">
-          Contact Us
-        </h1><!-- /.section__title -->
-      </div><!-- /.section__head -->
+  <article class="article" id="about">
     <div class="container">
-      <div class="section__body">
-        <div class="section__aside">
-          <div class="contacts">
-            <div class="contacts__head">
-              <h2 class="contacts__title">
-                Information
-              </h2><!-- /.contacts__title -->
-            </div><!-- /.contacts__head -->
+      <div class="article__head">
+        <h5 class="article__title">
+          We Are Cannabinerds
+        </h5><!-- /.article__title -->
+      </div><!-- /.article__head -->
 
-            <div class="contacts__body">
-              <p class="contacts__entry">
-                Questions about things that you heard? Want to know more about getting an Illinois Medical Cannabis Card? Send us a message and we’d be happy to get back to you.
-              </p>
-            </div><!-- /.contacts__body -->
+      <div class="article__body">
+        <h2 class="article__subtitle">
+          Bringing you the latest look into the scientific, medical, and sociopolitical world of Medical Cannabis.
+        </h2><!-- /.article__subtitle -->
+      </div><!-- /.article__body -->
 
-            <div class="contacts__foot">
-              <div class="contacts__item">
-                <h6 class="contacts__item-title">
-                  Address:
-                </h6><!-- /.contacts__item-title -->
-
-                <p class="contacts__item-entry">
-                  5001 N Clark St <br>
-                  Chicago, IL, 60640
-                </p><!-- /.contacts__item-entry -->
-              </div><!-- /.contacts__item -->
-
-              <div class="row">
-                <div class="col col-6">
-                  <div class="contacts__item">
-                    <h6 class="contacts__item-title">
-                      Email:
-                    </h6><!-- /.contacts__item-title -->
-
-                    <p class="contacts__item-entry">
-                      <a href="mailto:info@cannabinerd.com">info@cannabinerd.com</a>
-                    </p><!-- /.contacts__item-entry -->
-                  </div><!-- /.contacts__item -->
-                </div><!-- /.col col-6 -->
-
-                <div class="col col-6">
-                  <div class="contacts__item">
-                    <h6 class="contacts__item-title">
-                      Phone:
-                    </h6><!-- /.contacts__item-title -->
-
-                    <p class="contacts__item-entry">
-                      <a href="tel:3126203333">312 620 3333</a>
-                    </p><!-- /.contacts__item-entry -->
-                  </div><!-- /.contacts__item -->
-                </div><!-- /.col col-6 -->
-              </div><!-- /.cols -->
-            </div><!-- /.contacts__foot -->
-          </div><!-- /.contacts -->
-        </div><!-- /.section__aside -->
-
-        <div class="section__content">
-          <div class="form">
-            <form action="https://formspree.io/bryan@zis.es" method="post">
-              <div class="form__head">
-                <h6 class="form__title">
-                  Drop Us A Line
-                </h6><!-- /.form__title -->
-              </div><!-- /.form__head -->
-
-              <div class="form__body">
-                <div class="form__row">
-                  <div class="form__col">
-                    <div class="form__controls">
-                      <input type="text" class="field" name="name" id="name" value="" placeholder="Your Name">
-                    </div><!-- /.form__controls -->
-                  </div><!-- /.form__col -->
-
-                  <div class="form__col">
-                    <div class="form__controls">
-                      <input type="text" class="field" name="phone" id="phone" value="" placeholder="Your phone">
-                    </div><!-- /.form__controls -->
-                  </div><!-- /.form__col -->
-                </div><!-- /.form__row -->
-
-                <div class="form__row">
-                  <div class="form__col">
-                    <div class="form__controls">
-                      <input type="text" class="field" name="_replyto" id="email" value="" placeholder="Your email">
-                    </div><!-- /.form__controls -->
-                  </div><!-- /.form__col -->
-
-                  <div class="form__col">
-                    <div class="form__controls">
-                      <input type="text" class="field" name="website" id="website" value="" placeholder="Your website">
-                    </div><!-- /.form__controls -->
-                  </div><!-- /.form__col -->
-                </div><!-- /.form__row -->
-
-                <div class="form__controls">
-                  <label for="field-1#" class="form__label">Your Message</label>
-
-                  <textarea class="textarea" name="message" id="message"></textarea>
-                </div><!-- /.form__controls -->
-              </div><!-- /.form__body -->
-
-              <div class="form__actions">
-                <button type="submit" class="btn btn--dark btn--block">
-                  <i>
-                    <img src="assets/arrow-white-large.png"}}" alt="" width="16" height="10">
-                  </i>
-
-                  Send Your Message
-                </button>
-              </div><!-- /.form__actions -->
-            </form>
-          </div><!-- /.form -->
-        </div><!-- /.section__content -->
-      </div><!-- /.section__body -->
+      <div class="article__actions">
+        <a href="blog" class="btn-link">
+          read More
+          <i>
+            <img src="assets/arrow-grey.png" alt="" width="16" height="10">
+          </i>
+        </a>
+      </div><!-- /.article__actions -->
     </div><!-- /.container -->
-  </section><!-- /.section-contacts -->
+  </article><!-- /.article -->
+  <div class="articles__body">
+
+    
+    <article class="article-large">
+      <div class="container">
+        <div class="article__image">
+          <img src="assets/hex.png" class="img-responsive" alt="LIFTED Why Drug Addiction &amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban" width="571" height="645">
+        </div><!-- /.article__image -->
+
+        <div class="article__content">
+          <div class="article__shell">
+            <p class="article__date">
+              9.20.17 Podcast
+            </p><!-- /.article__date -->
+          </div><!-- /.article__shell -->
+
+          <h3 class="article__title">
+            LIFTED Why Drug Addiction &amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban
+          </h3><!-- /.article__title -->
+
+          <div class="article__shell">
+            <p class="article__entry">
+              Interview with former Ravens tackle Eugene Monroe.
+            </p><!-- /.article__entry -->
+
+            <div class="article__actions">
+              <a href="/blog/update/2017/09/20/lifted/" class="btn btn--dark">
+                <i>
+                  <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
+                </i>
+                Listen Now
+              </a>
+            </div><!-- /.article__actions -->
+          </div><!-- /.article__shell -->
+        </div><!-- /.article__content -->
+      </div><!-- /.container -->
+    </article><!-- /.article-large -->
+    
+    <article class="article-large">
+      <div class="container">
+        <div class="article__image">
+          <img src="assets/hex2.png" class="img-responsive" alt="BIOLITICS Studio ft. Dispensary33 &amp; NAC" width="568" height="645">
+        </div><!-- /.article__image -->
+
+        <div class="article__content">
+          <div class="article__shell">
+            <p class="article__date">
+              9.9.17 Podcast
+            </p><!-- /.article__date -->
+          </div><!-- /.article__shell -->
+
+          <h3 class="article__title">
+            BIOLITICS Studio ft. Dispensary33 &amp; NAC
+          </h3><!-- /.article__title -->
+
+          <div class="article__shell">
+            <p class="article__entry">
+              Our first sit down with Biolitics podcast; Cannabinerds from Dispensary33 and New Age Care.
+            </p><!-- /.article__entry -->
+
+            <div class="article__actions">
+              <a href="/blog/update/2017/09/09/biolitics/" class="btn btn--dark">
+                <i>
+                  <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
+                </i>
+                Listen Now
+              </a>
+            </div><!-- /.article__actions -->
+          </div><!-- /.article__shell -->
+        </div><!-- /.article__content -->
+      </div><!-- /.container -->
+    </article><!-- /.article-large -->
+    
+    <article class="article-large">
+      <div class="container">
+        <div class="article__image">
+          <img src="assets/hex3.png" class="img-responsive" alt="HTFSE &amp; HCFSE Explained" width="568" height="645">
+        </div><!-- /.article__image -->
+
+        <div class="article__content">
+          <div class="article__shell">
+            <p class="article__date">
+              9.5.17 Podcast
+            </p><!-- /.article__date -->
+          </div><!-- /.article__shell -->
+
+          <h3 class="article__title">
+            HTFSE &amp; HCFSE Explained
+          </h3><!-- /.article__title -->
+
+          <div class="article__shell">
+            <p class="article__entry">
+              Learn the painstaking process of creating diamonds & terp sauce.
+            </p><!-- /.article__entry -->
+
+            <div class="article__actions">
+              <a href="/blog/update/2017/09/05/htfse/" class="btn btn--dark">
+                <i>
+                  <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
+                </i>
+                Listen Now
+              </a>
+            </div><!-- /.article__actions -->
+          </div><!-- /.article__shell -->
+        </div><!-- /.article__content -->
+      </div><!-- /.container -->
+    </article><!-- /.article-large -->
+    
+  </div><!-- /.articles__body -->
+
+  <div class="articles__actions">
+    <div class="container">
+      <a href="blog" class="btn-link">
+        Load More Projects
+      </a>
+    </div><!-- /.container -->
+  </div><!-- /.articles__actions -->
+</div><!-- /.articles -->
+  <section class="section-contacts" id="contact">
+  <div class="section__head" style="background-image: url(assets/contact-placehodler.png"})">
+      <h1 class="section__title">
+        Contact Us
+      </h1><!-- /.section__title -->
+  </div><!-- /.section__head -->
+  <div class="container">
+    <div class="section__body">
+      <div class="section__aside">
+        <div class="contacts">
+          <div class="contacts__head">
+            <h2 class="contacts__title">
+              Information
+            </h2><!-- /.contacts__title -->
+          </div><!-- /.contacts__head -->
+
+          <div class="contacts__body">
+            <p class="contacts__entry">
+              Questions about things that you heard? Want to know more about getting an Illinois Medical Cannabis Card? Send us a message and we’d be happy to get back to you.
+            </p>
+          </div><!-- /.contacts__body -->
+
+          <div class="contacts__foot">
+            <div class="contacts__item">
+              <h6 class="contacts__item-title">
+                Address:
+              </h6><!-- /.contacts__item-title -->
+
+              <p class="contacts__item-entry">
+                5001 N Clark St <br>
+                Chicago, IL, 60640
+              </p><!-- /.contacts__item-entry -->
+            </div><!-- /.contacts__item -->
+
+            <div class="row">
+              <div class="col col-6">
+                <div class="contacts__item">
+                  <h6 class="contacts__item-title">
+                    Email:
+                  </h6><!-- /.contacts__item-title -->
+
+                  <p class="contacts__item-entry">
+                    <a href="mailto:info@cannabinerd.com">info@cannabinerd.com</a>
+                  </p><!-- /.contacts__item-entry -->
+                </div><!-- /.contacts__item -->
+              </div><!-- /.col col-6 -->
+
+              <div class="col col-6">
+                <div class="contacts__item">
+                  <h6 class="contacts__item-title">
+                    Phone:
+                  </h6><!-- /.contacts__item-title -->
+
+                  <p class="contacts__item-entry">
+                    <a href="tel:3126203333">312 620 3333</a>
+                  </p><!-- /.contacts__item-entry -->
+                </div><!-- /.contacts__item -->
+              </div><!-- /.col col-6 -->
+            </div><!-- /.cols -->
+          </div><!-- /.contacts__foot -->
+        </div><!-- /.contacts -->
+      </div><!-- /.section__aside -->
+
+      <div class="section__content">
+        <div class="form">
+          <form action="https://formspree.io/bryan@zis.es" method="post">
+            <div class="form__head">
+              <h6 class="form__title">
+                Drop Us A Line
+              </h6><!-- /.form__title -->
+            </div><!-- /.form__head -->
+
+            <div class="form__body">
+              <div class="form__row">
+                <div class="form__col">
+                  <div class="form__controls">
+                    <input type="text" class="field" name="name" id="name" value="" placeholder="Your Name">
+                  </div><!-- /.form__controls -->
+                </div><!-- /.form__col -->
+
+                <div class="form__col">
+                  <div class="form__controls">
+                    <input type="text" class="field" name="phone" id="phone" value="" placeholder="Your phone">
+                  </div><!-- /.form__controls -->
+                </div><!-- /.form__col -->
+              </div><!-- /.form__row -->
+
+              <div class="form__row">
+                <div class="form__col">
+                  <div class="form__controls">
+                    <input type="text" class="field" name="_replyto" id="email" value="" placeholder="Your email">
+                  </div><!-- /.form__controls -->
+                </div><!-- /.form__col -->
+
+                <div class="form__col">
+                  <div class="form__controls">
+                    <input type="text" class="field" name="website" id="website" value="" placeholder="Your website">
+                  </div><!-- /.form__controls -->
+                </div><!-- /.form__col -->
+              </div><!-- /.form__row -->
+
+              <div class="form__controls">
+                <label for="field-1#" class="form__label">Your Message</label>
+
+                <textarea class="textarea" name="message" id="message"></textarea>
+              </div><!-- /.form__controls -->
+            </div><!-- /.form__body -->
+
+            <div class="form__actions">
+              <button type="submit" class="btn btn--dark btn--block">
+                <i>
+                  <img src="assets/arrow-white-large.png"}}" alt="" width="16" height="10">
+                </i>
+
+                Send Your Message
+              </button>
+            </div><!-- /.form__actions -->
+          </form>
+        </div><!-- /.form -->
+      </div><!-- /.section__content -->
+    </div><!-- /.section__body -->
+  </div><!-- /.container -->
+</section><!-- /.section-contacts -->
 </div><!-- /.main -->
 
     </main>
